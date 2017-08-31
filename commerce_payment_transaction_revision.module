@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Adds revision Views support to the Commerce Payment Transaction entity type.
+ */
+
+/**
+ * Implements hook_views_api().
+ */
+function commerce_payment_transaction_revision_views_api() {
+  return array(
+    'api' => 3,
+    'path' => drupal_get_path('module', 'commerce_payment_transaction_revision') . '/includes/views',
+  );
+}
