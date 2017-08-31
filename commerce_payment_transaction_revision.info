@@ -1,0 +1,5 @@
+name = Commerce Payment Transaction Revision
+description = Adds revision support to Commerce Payment Transaction entity type.
+core = 7.x
+package = Commerce (contrib)
+dependencies[] = commerce_payment
